@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mobile-first</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- aqui comienza Navbar -->
+<section class="firtSection">
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col s12 m4 l2">
+  </div>
+  <div class="col s12 m4 l8">
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo right">Logo</a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li>
+        <a href="sass.html">Sass</a>
+      </li>
+      <li>
+        <a href="badges.html">Components</a>
+      </li>
+      <li>
+        <a href="collapsible.html">JavaScript</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </div>
+  <div class="col s12 m4 l2">
+  </div>
+</div>
+</div>
+</section>
+<!-- aqui termina Navbar -->
+<!-- aqui empieca carrosel -->
+<section class="secondSection">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col s12 m4 l2">
+      </div>
+      <div class="col s12 m4 l8">
+<div class="carousel carousel-slider">
+  <a class="carousel-item" href="#one!">
+    <img src="./asset/img/paris-francia-2011-4027.jpg">
+  </a>
+  <a class="carousel-item" href="#two!">
+    <img src="./asset/img/rome.jpg">
+  </a>
+  <a class="carousel-item" href="#three!">
+    <img src="./asset/img/towns-netherlands-amsterdam-rivers-evening.jpg">
+  </a>
+  <a class="carousel-item" href="#four!">
+    <img src="./asset/img/rome.jpg">
+  </a>
+</div>
+</div>
+      <div class="col s12 m4 l2">
+      </div>
+  </div>
+  </div>
+</section>
+<!-- aqui termina el carrusel -->
+<!-- Testimonio -->
+<section class="threeSection">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col s12 m4 l2">
+    </div>
+    <div class="col s12 m4 l8" id="testimonio">
+      <h4> Testimonio</h4>
+    </div>
+    <div class="col s12 m4 l2">
+    </div>
+  </div>
+</div>
+</section>
+<!-- testimonio finish -->
+<!-- fotos de los turistas -->
+<section class"fourSection">
+<div class="container-fluid">
+  <div class="row">
+<div class="col s12 m4 l2">
+    </div>
+<div class="container-fluid">
+  <div class="row">
+<div class="col s12 m4 l8">
+<div class="col s12 m4 l2" id="globalTuristas">
+<img src="./asset/img/turist1.jpg" class="turistaPhoto1" alt="">
+<div id="text1" >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+<div class="col s12 m4 l8" id="globalTuristas">
+<img src="./asset/img/turist2.jpg" class="turistaPhoto2" alt="">
+<div id="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+<div class="col s12 m4 l2" id="globalTuristas">
+<img src="./asset/img/turist3.jpg" class="turistaPhoto3" alt="">
+<div id="text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col s12 m4 l2">
+</div>
+</div>
+</div>
+</section>
+<!-- aqui termina las fotos de los turistas -->
+<!-- Aqui seccion de contactos -->
+<section id="fiveSection">
+<div class="container-fluid">
+  <div class="row">
+<div class="col s12 m4 l2">
+    </div>
+<div class="col s12 m4 l8">
+  <h6 id="contactos"> Contactanos</h6>
+    <div class="input-field ">
+    <input id="input_text" type="text" data-length="10">
+    <label for="input_text">Email address:</label>
+    </div>
+  <div class="input-field ">
+  <input id="input_text" type="text" data-length="10">
+  <label for="input_text"> Password: </label>
+</div>
+<div>
+<label>
+<input type="checkbox" class="filled-in text-lighten-5" checked="checked">
+  <span> Remember me </span>
+</label>
+</div>
+<div>
+<button type="submit" class="btn text-lighten-5">Submit</button>
+</div>
+</div>
+</div>
+    </div>
+    </div>
+<div class="col s12 m4 l2">
+    </div>
+  </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script>
+$('.carousel.carousel-slider').carousel({ fullWidth: true });
+</script>
+<script>
+ $(document).ready(function(){ $('.sidenav').sidenav(); });
+</script>
+</body>
+</html>
